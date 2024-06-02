@@ -185,9 +185,9 @@ public void AddCourier(Courier courier)
 
             Client client = Clients[random.Next(Clients.Count)];
 
-            Restaurant restaurant = new Restaurant("Best Sushi", "123 Main St", "Japanese", 4.5);
+            Restaurant restaurant = new Restaurant("Best Sushi", "Pyrihiva 9", "Ukraine", 4.5);
             restaurant.AddDish(new Dish("Sushi Roll", "Delicious sushi roll", 120, 200, 250, new List<string> { "Fish", "Rice" }));
-            restaurant.AddDish(new Dish("Tempura", "Crispy tempura", 150, 300, 350, new List<string> { "Shrimp", "Wheat" }));
+            restaurant.AddDish(new Dish("Golybtsi", "spec Stravy", 150, 300, 350, new List<string> { "Cabbage", "Meat" }));
 
             List<Dish> selectedDishes = new List<Dish> { restaurant.Menu[random.Next(restaurant.Menu.Count)] };
 
